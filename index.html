@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        <link rel="stylesheet" href="./css/index.css">
+    <script defer src="/index.js"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap" rel="stylesheet">
+        <title>Транслит</title>
+    </head>
+
+    <body class="translit-container">
+        <div class="box1">
+            <h1>T.R.A.N.S.L.I.T.</h1>
+        </div>
+        <div class="box2" id="add-translit-container">
+            <input type="text" placeholder="Начните вводить текст"
+                id="input-translit">
+            <button type="submit" id="add-translit">Добавить</button>
+        </div>
+
+        <div class="box3">
+            <div class="translit-box">
+                <div class="left">
+                    <div class="left-number">1</div>
+                    <div class="left-text">
+                        <p>Привет 👋🏻</p>
+                    </div>
+                </div>
+                <div class="right">
+                    <div class="right-text">
+                        <p>Privet</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <button id="delete">
+            <img src="/Img/symbol.svg" alt="delete">
+            Очистить всё
+        </button>
+    </body>
+</html>
